@@ -1,0 +1,350 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   max-width: 1440px;
+   padding: 0 156px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+/*
+<weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+}
+  */
+
+/*
+   Thin 100
+---
+Thin 100 Italic
+---
+ExtraLight 200
+---
+ExtraLight 200 Italic
+---
+Light 300
+---
+Light 300 Italic
+---
+Regular 400
+---
+Regular 400 Italic
+---
+Medium 500
+---
+Medium 500 Italic
+---
+SemiBold 600
+---
+SemiBold 600 Italic
+---
+Bold 700
+---
+Bold 700 Italic
+---
+ExtraBold 800
+---
+ExtraBold 800 Italic
+---
+Black 900
+---
+Black 900 Italic
+*/
+
+/* header header*/
+
+.header {
+   background-color: #4694DC;
+   color: #fff;
+}
+
+.header_title {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 56px;
+   padding-top: 120px;
+}
+
+.header_text {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   max-width: 437px;
+   padding-top: 34px;
+   margin-bottom: 48px;
+}
+
+
+.header_btn {
+   color: #000;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   background-color: #fff;
+   border: none;
+   width: 194px;
+   height: 60px;
+   margin-bottom: 120px;
+   cursor: pointer;
+}
+
+/* services services */
+
+.services_inner {
+   /* border: 1px solid red; */
+   max-width: 888px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.services_title {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 16px;
+   letter-spacing: 3.3px;
+   color: #000;
+   text-transform: uppercase;
+   padding-top: 102px;
+   margin-bottom: 25px;
+}
+
+.services_text {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.04em;
+   color: #9CA3AF;
+   text-transform: none;
+   max-width: 465px;
+   margin: 0 auto;
+   margin-bottom: 79px;
+}
+
+.services_icon_box {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   max-width: 888px;
+   gap: 15px;
+}
+
+.services_icon_item {
+   /* border: 1px solid blue; */
+   max-width: 280px;
+   width: 100%;
+   height: 177px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 25px;
+}
+
+.services_icon_image {
+   height: 60px;
+   display: flex;
+   align-items: center;
+}
+
+.services_icon_image>img {
+   align-content: center;
+}
+
+.services_icon_text {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.0;
+   letter-spacing: 0em;
+   color: #9CA3AF;
+   text-transform: none;
+}
+
+/* team team */
+
+.team_title {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 16px;
+   letter-spacing: 3.3px;
+   color: #000;
+   text-transform: uppercase;
+   text-align: center;
+   padding-top: 160px;
+   margin-bottom: 25px;
+}
+
+.team_text {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.04em;
+   color: #9CA3AF;
+   text-transform: none;
+   text-align: center;
+   max-width: 465px;
+   margin: 0 auto;
+   margin-bottom: 80px;
+}
+
+.team_icon_box {
+   display: flex;
+   justify-content: space-between;
+   /* flex-wrap: wrap; */
+   gap: 35px;
+   max-width: 880px;
+   margin: 0 auto;
+   padding-bottom: 142px;
+}
+
+.team_icon_item {
+   display: flex;
+   max-width: 260px;
+   width: 100%;
+   height: 76px;
+   padding-left: 20px;
+   background-color: #fff;
+   border-radius: 11px;
+   box-shadow: 0px 4px 10px 0px rgba(91, 93, 99, 0.4);
+}
+
+.team_icon_image {
+   align-self: center;
+   margin-right: 8px;
+}
+
+
+.team_icon_text_block_title {
+
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 12px;
+   line-height: 26px;
+   letter-spacing: 0em;
+   color: #000;
+   text-transform: capitalize;
+   padding-top: 15px;
+}
+
+.team_icon_text_block_text {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 11px;
+   line-height: 26px;
+   letter-spacing: 0.0em;
+   color: #9CA3AF;
+   text-transform: capitalize;
+   margin-top: -6px;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 1366px) {
+   .team .container {
+      padding: 0 15px;
+   }
+}
+
+@media screen and (max-width: 1280px) {
+   .container {
+      padding: 0 80px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+
+   .services_icon_box,
+   .team_icon_box {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+      padding: 0 30px;
+   }
+
+   .header_title {
+      font-size: 42px;
+      padding-top: 60px;
+   }
+
+   .services_text,
+   .team_text {
+      margin-bottom: 40px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .container {
+      padding: 0 15px;
+   }
+
+   .header_title {
+      font-size: 36px;
+      padding-top: 30px;
+   }
+
+   .header_btn {
+      font-size: 14px;
+      line-height: 24px;
+      background-color: #fff;
+      border: none;
+      width: 150px;
+      height: 50px;
+      margin-bottom: 80px;
+   }
+
+   .team_icon_item {
+      padding-left: 10px;
+   }
+
+   .team_icon_text_block_text {
+      line-height: 1.4;
+   }
+}
